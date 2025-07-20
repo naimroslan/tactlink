@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "id": "1752982106913",
+      "userId": "1752978681617",
+      "text": "Write backend with nodes and graphql "
+    },
+    {
+      "id": "1752994422189",
+      "userId": "1752978681617",
+      "text": "Set up AWS"
+    }
+  ]
+}
