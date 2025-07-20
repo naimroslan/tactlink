@@ -1,6 +1,6 @@
 import { GraphQLClient, gql } from 'graphql-request';
 
-const endpoint = 'http://localhost:4000'; // adjust if needed
+const endpoint = 'http://54.169.133.127';
 export const client = new GraphQLClient(endpoint);
 
 export const LOGIN = gql`
