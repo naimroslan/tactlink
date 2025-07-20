@@ -1,6 +1,6 @@
 import { GraphQLClient, gql } from "graphql-request";
 
-const endpoint = "http://localhost:4000";
+const endpoint = "https://tactlink.naimroslan.dev";
 
 export const client = new GraphQLClient(endpoint);
 
