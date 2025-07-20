@@ -1,6 +1,6 @@
 import { GraphQLClient, gql } from 'graphql-request';
 
-const endpoint = 'http://54.169.133.127';
+const endpoint = import.meta.env.VITE_API_ENDPOINT!;
 export const client = new GraphQLClient(endpoint);
 
 export const LOGIN = gql`
