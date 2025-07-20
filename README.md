@@ -77,15 +77,20 @@ Backend API endpoint: **[https://tactlink.naimroslan.dev](https://tactlink.naimr
 - **Hosting**: Vercel (Web), Custom Domain (Backend)
 - **Process Management**: PM2
 
-## 📱 Platform Support
-
-- **Web**: Modern browsers
-- **Mobile**: iOS (Android support available)
-
 ## 🐳 Deployment
 
 The backend has been containerized and is production-ready with proper deployment configurations.
 
 ---
+
+## ⏱️ Development Timeline
+
+| Component | Time Spent | Details |
+|-----------|------------|---------|
+| 📱 **React Native** | 2 hours | Mobile app development and setup |
+| 🔧 **Backend API** | 1 hour | Node.js + GraphQL server implementation |
+| 🌐 **Web Application** | 1.5 hours | Remix frontend development |
+| ☁️ **AWS Deployment** | 30 minutes | Containerization and hosting setup |
+| **Total** | **5 hours** | Complete full-stack solution |
 
 *This project demonstrates full-stack development capabilities across web, mobile, and backend technologies.*
