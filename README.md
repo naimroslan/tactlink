@@ -2,10 +2,10 @@
 ### For full stack developer position
 
 ## Folder Structure
-tactlink
-  |- mobile
-  |- web
-  |- backend
+tactlink/
+├── backend/   # Node.js + Apollo Server (GraphQL)
+├── mobile/    # React Native app
+└── web/       # Remix web frontend
 
 ### Set up and installation
 
