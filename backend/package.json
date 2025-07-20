@@ -9,6 +9,7 @@
   "dependencies": {
     "apollo-server": "^3.13.0",
     "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
     "fs-extra": "^11.3.0",
     "graphql": "^16.11.0"
   }
