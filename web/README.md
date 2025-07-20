@@ -1,36 +1,40 @@
-# Rsbuild project
+# Welcome to Remix!
 
-## Setup
+- 📖 [Remix docs](https://remix.run/docs)
 
-Install the dependencies:
+## Development
 
-```bash
-pnpm install
+Run the dev server:
+
+```sh
+npm run dev
 ```
 
-## Get started
+## Deployment
 
-Start the dev server, and the app will be available at [http://localhost:3000](http://localhost:3000).
+First, build your app for production:
 
-```bash
-pnpm dev
+```sh
+npm run build
 ```
 
-Build the app for production:
+Then run the app in production mode:
 
-```bash
-pnpm build
+```sh
+npm start
 ```
 
-Preview the production build locally:
+Now you'll need to pick a host to deploy it to.
 
-```bash
-pnpm preview
-```
+### DIY
 
-## Learn more
+If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
 
-To learn more about Rsbuild, check out the following resources:
+Make sure to deploy the output of `npm run build`
 
-- [Rsbuild documentation](https://rsbuild.rs) - explore Rsbuild features and APIs.
-- [Rsbuild GitHub repository](https://github.com/web-infra-dev/rsbuild) - your feedback and contributions are welcome!
+- `build/server`
+- `build/client`
+
+## Styling
+
+This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
