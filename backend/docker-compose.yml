@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  backend:
+    build: .
+    container_name: tactlink-backend
+    restart: always
+    ports:
+      - "4000:4000"
